@@ -1,0 +1,81 @@
+/* Définir les styles généraux pour le site */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Styles pour les sections */
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+/* Style pour les titres des sections */
+h2 {
+    color: #333;
+}
+
+/* Style des produits (images et description) */
+#produits {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.produit {
+    text-align: center;
+    width: 200px;
+    margin: 10px;
+}
+
+.produit img {
+    width: 100%; /* Faire en sorte que l'image prenne toute la largeur de son conteneur */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.produit p {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #555;
+}
+
+/* Style des boutons pour la prise de rendez-vous */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Styles pour les formulaires */
+input[type="text"], input[type="email"], input[type="date"], select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}

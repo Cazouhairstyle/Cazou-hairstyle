@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cazou Hairstyle & Make-up</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-image: url('images/background.jpg');
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+        }
+        .responsive-img {
+            width: 100%;
+            max-width: 600px;
+            display: block;
+            margin: 20px auto;
+        }
+        .payment-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 15px;
+        }
+        .payment-buttons img {
+            width: 150px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cazou Hairstyle & Make-up</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#shop">Boutique</a></li>
+                <li><a href="#appointment">Rendez-vous</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h2>Bienvenue chez Cazou Hairstyle & Make-up</h2>
+        <p>Votre salon de coiffure et maquillage professionnel.</p>
+        <img src="images/salon_accueil.jpg" alt="Personnes profitant des services du salon" class="responsive-img">
+    </section>
+    
+    <section id="services">
+        <h2>Nos Services</h2>
+        <ul>
+            <li>Coiffure & Soins capillaires</li>
+            <li>Maquillage professionnel</li>
+            <li>Soins des ongles (bientôt disponible)</li>
+        </ul>
+        <img src="images/services.jpg" alt="Coiffure et maquillage en cours" class="responsive-img">
+    </section>
+    
+    <section id="shop">
+        <h2>Nos Produits</h2>
+        <p>Bientôt disponible : vente en ligne de soins capillaires.</p>
+        <img src="images/produits.jpg" alt="Produits capillaires en vente" class="responsive-img">
+    </section>
+    
+    <section id="appointment">
+        <h2>Prendre Rendez-vous</h2>
+        <form>
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="phone">Téléphone :</label>
+            <input type="tel" id="phone" name="phone" required>
+            
+            <label for="date">Date :</label>
+            <input type="date" id="date" name="date" required>
+            
+            <button type="submit">Réserver</button>
+        </form>
+        <div class="payment-buttons">
+            <img src="images/moncash.png" alt="Payer avec MonCash">
+            <img src="images/natcash.png" alt="Payer avec NatCash">
+        </div>
+        <img src="images/rendezvous.jpg" alt="Client en train de prendre un rendez-vous" class="responsive-img">
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Cazou Hairstyle & Make-up - Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
